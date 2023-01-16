@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CommandHandlers\" />
+    <ProjectReference Include="..\BackendTestApp.Domain\BackendTestApp.Domain.csproj" />
+    <ProjectReference Include="..\BackendTestApp.Infrastructure\BackendTestApp.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="QueryHandlers\" />
   </ItemGroup>
 
 </Project>

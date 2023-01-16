@@ -1,4 +1,4 @@
-using BackendTestApp.Application.QueryHandlers;
+//using BackendTestApp.Application.QueryHandlers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IQuery<GetWeatherForecastResult>, GetWeatherForecastQuery>();
+//builder.Services.AddScoped<IQueryHandler<GetWeatherForecastResult>, GetWeatherForecastQueryHandler>();
 
 
 //builder.Services.AddSingleton<>();

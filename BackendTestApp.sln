@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendTestApp", "BackendTestApp\BackendTestApp.csproj", "{80C25648-DCCA-491E-A303-3DABE490E8F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackendTestApp", "BackendTestApp\BackendTestApp.csproj", "{80C25648-DCCA-491E-A303-3DABE490E8F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendTestApp.Application", "BackendTestApp.Application\BackendTestApp.Application.csproj", "{C5CE716D-650C-4E98-BEF5-939C852E6F58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackendTestApp.Application", "BackendTestApp.Application\BackendTestApp.Application.csproj", "{C5CE716D-650C-4E98-BEF5-939C852E6F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendTestApp.Domain", "BackendTestApp.Domain\BackendTestApp.Domain.csproj", "{6DE4162E-4A3A-4DBB-AF50-D011543C8CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendTestApp.Infrastructure", "BackendTestApp.Infrastructure\BackendTestApp.Infrastructure.csproj", "{6927BFCF-E1C7-4895-8DBF-C559F0CEEA6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C5CE716D-650C-4E98-BEF5-939C852E6F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5CE716D-650C-4E98-BEF5-939C852E6F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5CE716D-650C-4E98-BEF5-939C852E6F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE4162E-4A3A-4DBB-AF50-D011543C8CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE4162E-4A3A-4DBB-AF50-D011543C8CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE4162E-4A3A-4DBB-AF50-D011543C8CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE4162E-4A3A-4DBB-AF50-D011543C8CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6927BFCF-E1C7-4895-8DBF-C559F0CEEA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6927BFCF-E1C7-4895-8DBF-C559F0CEEA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6927BFCF-E1C7-4895-8DBF-C559F0CEEA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6927BFCF-E1C7-4895-8DBF-C559F0CEEA6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
